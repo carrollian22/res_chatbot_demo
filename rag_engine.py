@@ -1,6 +1,6 @@
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_text_splitters import CharacterTextSplitter
+from langchain.text_splitter import CharacterTextSplitter
 
 def build_vector_store(text):
     splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
