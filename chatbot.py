@@ -1,4 +1,4 @@
-from langchain.chains.retrieval_qa import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_openai import ChatOpenAI
 
 def build_qa_chain(vector_store):
