@@ -6,4 +6,3 @@ langchain-community
 faiss-cpu
 PyMuPDF
 python-dotenv
-
